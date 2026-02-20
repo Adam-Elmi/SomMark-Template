@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Adam-Elmi/SomMark-Plugins/issues"
   },
-  "homepage": "https://github.com/Adam-Elmi/SomMark-Plugins#readme"
+  "homepage": "https://github.com/Adam-Elmi/SomMark-Plugins#readme",
+  "dependencies": {
+    "highlight.js": "^11.11.1"
+  }
 }
