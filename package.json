@@ -1,0 +1,23 @@
+{
+  "name": "sommark-plugins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adam-Elmi/SomMark-Plugins.git"
+  },
+  "keywords": [
+    "plugins",
+    "plugin",
+    "plugin-system"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Adam-Elmi/SomMark-Plugins/issues"
+  },
+  "homepage": "https://github.com/Adam-Elmi/SomMark-Plugins#readme"
+}
