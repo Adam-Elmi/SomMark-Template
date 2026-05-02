@@ -1,26 +1,21 @@
 {
-  "name": "sommark-plugins",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Adam-Elmi/SomMark-Plugins.git"
-  },
-  "keywords": [
-    "plugins",
-    "plugin",
-    "plugin-system"
-  ],
-  "author": "",
-  "license": "MIT",
+  "name": "sommark-template",
+  "module": "index.ts",
   "type": "module",
-  "bugs": {
-    "url": "https://github.com/Adam-Elmi/SomMark-Plugins/issues"
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "vite": "^8.0.10"
   },
-  "homepage": "https://github.com/Adam-Elmi/SomMark-Plugins#readme",
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "highlight.js": "^11.11.1"
+    "sommark-web": "../Vite-Plugin-SomMark"
   }
 }
